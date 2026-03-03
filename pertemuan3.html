@@ -4,20 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pertemuan 3</title>
+    <style >
+    </style>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <h1>Form Kehadiran Praktikan</h1>
+
+
+<div class="container">
+    <div class="nama">
     <label for="Nama">Nama:</label>
     <input type="text" placeholder="Masukkan nama" /><br />
     <br>
+    </div>
 
+    <div class="npm">
     <label for="NPM">NPM :</label>
     <input type="text" placeholder="Masukkan npm" /><br />
     <br>
+    </div>
 
+    <div class="kls">
     <label for="Kelas">Kelas:</label>
-    
-
     <select id=opsi name="Pilih kelas">
         <option selected disabled hidden>Pilih kelas</option>
         <option>SI</option>
@@ -25,16 +34,25 @@
         <option>ILKOMP</option>
     </select>
     <br>
+    </div>
 
+    <div class="tgl">
     <br>
     <label for="Tanggal">Tanggal:</label>
-    <input type="date" /><br />
+    <input type="date"/><br />
     <br>
+    </div>
 
+    <div class="wkt">
     <label for="Waktu">Waktu:</label>
     <input type="time" /><br />
     <br>
+    </div>
 
-    <input type="submit" placeholder="Masukkan nama" /><br />
+    <div class = submit>
+        <input type="submit" id="submit" placeholder="Masukkan nama" /><br />
+    </div>
+    
+</div>
 </body>
 </html>

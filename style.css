@@ -1,0 +1,124 @@
+body {
+    background-color: #000000;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+#main-header{
+    background-color: #ebc1e4;
+}
+
+.title {
+    font-size: 56px;
+    font-weight: bold;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+
+label {
+    text-align: center;
+    font-weight: bold;
+}
+
+.nama {
+    text-align: left;
+}
+
+.npm {
+    text-align: right;
+}
+
+.kls {
+    text-align: left;
+}
+
+.wkt {
+    text-align: left;
+}
+
+.submit {
+    text-align: center;
+}
+
+.tgl {
+    text-align: right;
+}
+
+#submit {
+    background-color: black;
+    color: #ebc1e4;
+}
+
+.container {
+    text-align: leftt;
+    background-color: #ebc1e4;
+    margin: 40px;
+    padding: 30px;
+}
+
+/* body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+#main-header .title {
+    text-align: center;
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box; 
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input:focus, select:focus {
+    border-color: #4CAF50;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+} */
